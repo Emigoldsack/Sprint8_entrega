@@ -7,5 +7,6 @@ class CuentaSerializer(serializers.ModelSerializer):
         fields = "__all__"
         read_only_fields = (
             "id",
-            
+            "balance",
+            "iban",
         )

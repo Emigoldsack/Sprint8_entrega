@@ -24,5 +24,5 @@ urlpatterns = [
     path('itbank/customer/<int:pk>', CustomerDetails.as_view()),
     path('itbank/customers', CustomerList.as_view()),
     path('itbank/branch', BranchList.as_view()),
-    path('itbank/account/<int:pk>', AccountBalance.as_view())
+    path('itbank/account', AccountBalance.as_view())
 ]
